@@ -2,8 +2,6 @@ import jieba
 import langconv
 import langid
 
-word = [x for x in jieba.tokenize("输入简体,I Love You")][0][0]
-
 
 class sentence(object):
     def __init__(self):
